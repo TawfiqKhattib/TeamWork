@@ -1,9 +1,7 @@
 const express = require('express')
 const path = require('path')
-const bodyParser = require('body-parser')
 
 const api = require('./server/routs/api')
-
 
 const app = express()
 app.use(express.urlencoded({ extended: false }))
